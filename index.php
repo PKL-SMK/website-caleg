@@ -751,7 +751,7 @@
                                         <textarea name="komentar" id="comments" class="form-input w-full py-2 px-3 border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded h-28 outline-none bg-transparent focus:border-amber-500/50 dark:focus:border-amber-500/50 focus:shadow-none focus:ring-0 text-[15px]" placeholder="Komentar :"></textarea>
                                     </div>
                                 </div>
-                                <button type="submit" id="submit" name="submit"  class="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md h-11 justify-center flex items-center">Dukung Saya</button>
+                                <button type="submit" id="submit" name="submit"  class="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md h-11 justify-center flex items-center">Berikan Dukungan</button>
                             </form>
                         </div>
                     </div>
