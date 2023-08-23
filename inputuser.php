@@ -4,7 +4,7 @@ $db = mysqli_connect("localhost","root","","blog_caleg");
 
 if (isset($_POST["submit"])){
     //ambil data yang di input user
-    $nama = $_POST["nama"];
+    $name = $_POST["name"];
     $notelp = $_POST["notelp"];
     $email = $_POST["email"];
     $alamat = $_POST["alamat"];
@@ -13,24 +13,9 @@ if (isset($_POST["submit"])){
 
     //query dan masukan data ke database
     $query = "INSERT INTO input_user VALUES
-                ('','$nama','$notelp','$email','$alamat','$noktp','$komentar')";
+            ('','$name','$notelp','$email','$alamat','$noktp','$komentar')";
     mysqli_query($db, $query);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ?>
