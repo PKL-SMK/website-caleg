@@ -15,6 +15,10 @@ if (isset($_POST["submit"])){
     $query = "INSERT INTO input_user VALUES
             ('','$name','$notelp','$email','$alamat','$noktp','$komentar')";
     mysqli_query($db, $query);
+    
+    echo "<script> 
+                alert('Terima Kasih Telah Mendukung Saya')
+         </script>";
 
 }
 
