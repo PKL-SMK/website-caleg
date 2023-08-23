@@ -1,6 +1,6 @@
 <?php 
 //koneksi ke database
-$db = mysqli_connect("localhost","root","","blog_caleg");
+include 'connection.php';
 
 if (isset($_POST["submit"])){
     //ambil data yang di input user
