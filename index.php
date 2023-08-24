@@ -764,7 +764,7 @@
     
                                 <div class="flex-1 ms-6">
                                     <h5 class="text-[17px] dark:text-white mb-2 font-medium">Phone</h5>
-                                    <a href="tel:+152534-468-854" class="text-slate-400 text-[15px]">+152 534-468-854</a>
+                                    <a href="tel:+152534-468-854" class="text-slate-400 text-[15px]">+62 834-468-854</a>
                                 </div>
                             </div>
     
@@ -786,7 +786,7 @@
     
                                 <div class="flex-1 ms-6">
                                     <h5 class="text-[17px] dark:text-white mb-2 font-medium">Location</h5>
-                                    <p class="text-slate-400 text-[15px] mb-2">C/54 Northwest Freeway, Suite 558, Houston, USA 485</p>
+                                    <p class="text-slate-400 text-[15px] mb-2">C/54 Northwest Freeway, Suite 558, NewYork, USA 485</p>
                                 </div>
                             </div>
                         </div>
