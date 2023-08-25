@@ -28,8 +28,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/hcr.css">
-        -->
+        
+        --><link rel="stylesheet" href="assets/css/hcr.css">
 <style>
 
 </style>
@@ -160,7 +160,7 @@
                     <div class="lg:col-span-5 lg:px-8">
                         <div class="relative">
                             <div class="absolute inset-0 border dark:border-gray-800 rounded-full -mt-[10px] -ms-3 h-[100%] w-[100%] -z-1"></div>
-                            <img src="assets/images/caesar2.png" class="rounded-full shadow-md shadow-gray-200 dark:shadow-gray-800" alt="">
+                            <img src="assets/images/kuat4.png" class="rounded-full shadow-md shadow-gray-200 dark:shadow-gray-800" alt="">
 
                             <div class="absolute lg:bottom-20 md:bottom-10 bottom-6 ltr:lg:-right-16 rtl:lg:-left-16 ltr:md:-right-8 rtl:md:-left-8 ltr:right-0 rtl:left-0 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
                                 <h6 class="font-semibold">Caleg DPRD Kab.Tangerang</h6>
@@ -172,7 +172,7 @@
 
                     <div class="lg:col-span-7">
                         <div class="lg:ms-5">
-                            <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">PROFIL H.CAESAR RISMANTO</h3>
+                            <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold" style ="color :  #E8B020 ">PROFIL H.CAESAR RISMANTO</h3>
 
                             <p class="font-semibold">H. Caesar Rismanto calon anggota legislatif yang memiliki komitmen kuat untuk memajukan daerah dan masyarakatnya melalui kepemimpinan yang visioner, berintegritas, dan berdasarkan prinsip-prinsip demokrasi. Dengan latar belakang pendidikan dan pengalaman yang luas, Caesar Rismanto siap menjadikan aspirasi rakyat sebagai panduan dalam upayanya membangun masa depan yang lebih baik.</p>
                             <p class="font-semibold"> mengedepankan prinsip-prinsip kepemimpinan yang inklusif, mendengarkan, dan berempati.</p>
@@ -187,7 +187,7 @@
 
             <section class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="service">
                 <div class="container">
-                <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">VISI & MISI</h3>
+                <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold" style ="color :  #E8B020">VISI & MISI</h3>
 
                 <p><strong>VISI</strong> membangun masyarakat yang adil, sejahtera, dan bermartabat. Dengan komitmen ini, dia memiliki <strong>MISI</strong> untuk:</p>
 
@@ -252,7 +252,7 @@
         <!-- Start -->
         <section class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="proker">
             <div class="container">
-                <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">PROGRAM KERJA</h3>
+                <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold" style ="color :  #E8B020">PROGRAM KERJA</h3>
                 <br>
                 <h3><strong>Program Beasiswa Pendidikan:</strong> Mendirikan program beasiswa untuk siswa berprestasi namun kurang mampu, guna memastikan akses pendidikan berkualitas tanpa hambatan ekonomi</h3>
                 <h3><strong>Klinik Kesehatan Gratis:</strong> Mengadakan klinik kesehatan gratis secara berkala bagi masyarakat kurang mampu, dengan kolaborasi bersama tenaga medis dan rumah sakit setempat.</h3>
@@ -270,7 +270,7 @@
             <div class="absolute inset-0 bg-slate-900/70"></div>
             <div class="container relative">
                 <div class="grid grid-cols-1 pb-8 text-center">
-                    <h3 class="mb-4 md:text-2xl text-xl text-white font-semibold">SUARAKAN ASPIRASI RAKYAT</h3>
+                    <h3 class="mb-4 md:text-2xl text-xl text-white font-semibold" style ="color :  #E8B020">SUARAKAN ASPIRASI RAKYAT</h3>
 
                     <p class="text-white/80 max-w-xl mx-auto text-[15px]">mari kita wujudkan masa depan yang lebih baik dan lebih cerah bersama H.Caesar Rismanto</p>
                 
@@ -286,7 +286,7 @@
         <section class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="experience">
             <div class="container">
                 <div class="grid grid-cols-1 pb-8 text-center">
-                    <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">PENGALAMAN BEKERJA</h3>
+                    <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold" >PENGALAMAN BEKERJA</h3>
 
                   <!--  <p class="text-slate-400 max-w-xl mx-auto text-[15px]">H. Caesar Rismanto</p>-->
                 </div><!--end grid-->
@@ -386,7 +386,7 @@
         <section class="relative md:py-24 py-16" id="project">
             <div class="container">
                 <div class="grid grid-cols-1 pb-8 text-center">
-                    <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Galeri Berita</h3>
+                    <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold" style ="color :  #E8B020">Galeri Berita</h3>
 
                     <p class="text-slate-400 max-w-xl mx-auto text-[15px]">Informasi mengenai kegiatan Partai Gerindra di beberapa waktu lalu.</p>
                 </div><!--end grid-->
@@ -505,7 +505,7 @@
         <section class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="testi">
             <div class="container">
                 <div class="grid grid-cols-1 pb-8 text-center">
-                    <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">ASPIRASI RAKYAT</h3>
+                    <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold" style ="color :  #E8B020">ASPIRASI RAKYAT</h3>
 
                     <p class="text-slate-400 max-w-xl mx-auto text-[15px]">ulasan tentang H. Caesar Rismanto</p>
                 </div><!--end grid-->
@@ -665,47 +665,47 @@
         <section class="relative md:py-24 py-16" id="blog">
             <div class="container">
                 <div class="grid grid-cols-1 pb-8 text-center">
-                    <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Blogs or News</h3>
+                    <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold" style ="color :  #E8B020">Blogs atau Berita</h3>
 
-                    <p class="text-slate-400 max-w-xl mx-auto text-[15px]">Obviously I'm a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
+                    <p class="text-slate-400 max-w-xl mx-auto text-[15px]">Berita Terkini Tentang Partai Gerindra</p>
                 </div><!--end grid-->
 
                 <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px] mt-8">
                     <div class="blog relative rounded-lg shadow shadow-slate-200 dark:shadow-gray-800 overflow-hidden">
-                        <img src="assets/images/blog/01_giglink.jpg" alt="">
+                        <img src="assets/images/blog/c1.png" alt="">
 
                         <div class="content p-6">
-                            <a href="#" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5">Giglink: Tailwind CSS NFT Marketplace Template</a>
-                            <p class="text-slate-400 mt-3 text-[15px]">The phrasal sequence of the is now so that many campaign and benefit</p>
+                            <a href="https://realitaindo.co.id/kabupaten-tangerang/h-caesar-rismanto-resmi-jadi-caleg-partai-gerindra-kabupaten-tangerang-dapil-5/" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5">H.Caesar Rismanto Resmi Jadi Caleg Partai Gerindra Kabupaten Tangerang Dapil 5</a>
+                            <p class="text-slate-400 mt-3 text-[15px]">Meski hujan mengguyur deras di Luspem Tigaraksa, dengan pantang menyerah ratusan massa simpatisan Partai Gerindra antar ketua DPC Kabupaten Tangerang H. Astayudin SE daptarkan 55 bacalegnya ke KPUD Kabupaten Tangerang pada Sabtu, ( 13/5),</p>
                             
                             <div class="mt-5">
-                                <a href="#" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">Read More <i class="uil uil-arrow-right"></i></a>
+                                <a href="https://realitaindo.co.id/kabupaten-tangerang/h-caesar-rismanto-resmi-jadi-caleg-partai-gerindra-kabupaten-tangerang-dapil-5/" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">Baca Selengkapnya <i class="uil uil-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="blog relative rounded-lg shadow shadow-slate-200 dark:shadow-gray-800 overflow-hidden">
-                        <img src="assets/images/blog/01_techwind.jpg" alt="">
+                        <img src="assets/images/blog/p1.png" alt="">
 
                         <div class="content p-6">
-                            <a href="#" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5">Techwind: Tailwind CSS Multipurpose Template</a>
-                            <p class="text-slate-400 mt-3 text-[15px]">The phrasal sequence of the is now so that many campaign and benefit</p>
+                            <a href="https://20.detik.com/detikupdate/20230824-230824084/gerindra-nama-cawapres-tak-akan-keluar-tanpa-persetujuan-cak-imin" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5">Gerindra: Nama Cawapres Tak Akan Keluar Tanpa Persetujuan Cak Imin</a>
+                            <p class="text-slate-400 mt-3 text-[15px]">Wakil Ketua Umum Gerindra, Habiburokhman menyebut piagam kerja sama politik Koalisi Kebangkitan Indonesia Raya (KKIR) secara prinsip tetap sama seusai Golkar dan PAN bergabung dengan koalisi. Ia mengatakan tidak akan keluar nama cawapres Prabowo tanpa persetujuan Ketua Umum PKB Muhaimin Iskandar (Cak Imin).</p>
                             
                             <div class="mt-5">
-                                <a href="#" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">Read More <i class="uil uil-arrow-right"></i></a>
+                                <a href="https://20.detik.com/detikupdate/20230824-230824084/gerindra-nama-cawapres-tak-akan-keluar-tanpa-persetujuan-cak-imin" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">Baca Selengkapnya <i class="uil uil-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="blog relative rounded-lg shadow shadow-slate-200 dark:shadow-gray-800 overflow-hidden">
-                        <img src="assets/images/blog/01_upwind.jpg" alt="">
+                        <img src="assets/images/blog/p2.png" alt="">
 
                         <div class="content p-6">
-                            <a href="#" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5">Upwind: Tailwind CSS Landing Page Template</a>
-                            <p class="text-slate-400 mt-3 text-[15px]">The phrasal sequence of the is now so that many campaign and benefit</p>
+                            <a href="https://news.detik.com/foto-news/d-6878134/momen-prabowo-resmikan-rumah-pemenangan-relawan-di-menteng/5" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5">Momen Prabowo Resmikan Rumah Pemenangan Relawan di Mente</a>
+                            <p class="text-slate-400 mt-3 text-[15px]">Relawan yang hadir di lokasi kompak memakai atribut bertuliskan Prabowo. Di antaranya, Prabowo Mania 08, Genastara, Gerakan Prabowo 08, Bintang Garuda dan organ relawan lainnya.</p>
                             
                             <div class="mt-5">
-                                <a href="#" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">Read More <i class="uil uil-arrow-right"></i></a>
+                                <a href="https://news.detik.com/foto-news/d-6878134/momen-prabowo-resmikan-rumah-pemenangan-relawan-di-menteng/5" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">Baca Selengkapnya <i class="uil uil-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -718,7 +718,7 @@
         <section  class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="contact">
             <div  class="container">
                 <div class="grid grid-cols-1 pb-8 text-center">
-                    <h3 id ="dukung" class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Berikan Dukungan</h3>
+                    <h3 id ="dukung" class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold" style ="color :  #E8B020">Berikan Dukungan</h3>
                     <p  class="text-slate-400 max-w-xl mx-auto text-[15px]">isi formulir di bawah ini untuk mendukung saya, dan jangan lupa tinggalkan komentar.</p>
                 <div class="grid grid-cols-1 lg:grid-cols-12 md:grid-cols-2 mt-8 items-center gap-[30px]">
                     <div class="lg:col-span-8">
@@ -803,11 +803,11 @@
                     <div class="grid lg:grid-cols-12 md:grid-cols-3 grid-cols-1 items-center">
                         <div class="lg:col-span-3 md:text-start text-center">
                             <a href="#" class="text-[22px] focus:outline-none">
-                                <img src="assets/images/h-black.png" class="mx-auto md:me-auto md:ms-0" alt="">
+                                <img src="assets/images/hcr+burung.png" class="mx-auto md:me-auto md:ms-0" alt="">
                             </a>
                         </div>
-                       <div class="lg:col-span-5 text-center mt-6 md:mt-0">
-                            <p></p> CERDAS | SOLUTIF | MERAKYAT</p>
+                       <div class="lg:col-span-5 text-center mt-6 md:mt-0" style="color : #161C2D">
+                            <p></p><strong> CERDAS | SOLUTIF | MERAKYAT</strong></p>
                         </div> 
 
                   <!--      <ul class="lg:col-span-4 list-none md:text-end text-center mt-6 md:mt-0">

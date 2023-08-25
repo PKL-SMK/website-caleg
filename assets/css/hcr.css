@@ -2,12 +2,33 @@
     color : #fff !important;
     background-color: #fcd000 !important
 }
-
-.text-amber-500{
-    color : #E61C25 !important;
-    font-family: 'Roboto Mono', monospace;
-}
 */
-.personal-wrapper::before {
-background-color: #fcd000;
+.text-amber-500{
+    color : #E8B020 !important;
+
 }
+
+.personal-wrapper::before {
+background-color: #B91D2C;
+}
+.bg-amber-500 {
+    --tw-bg-opacity: 1 !important;
+    background-color: #E8B020 !important;
+}
+
+.bg-slate-900\/70 {
+    background-color:  #B91D2C !important;
+}
+.bg-dark-footer {
+    --tw-bg-opacity: 1!important;
+    background-color:#E8B020 !important;
+}
+.border-slate-800 {
+    --tw-border-opacity: 1!important;
+    border-color: #E8B020 !important;
+}
+.border-amber-500 {
+    --tw-border-opacity: 1!important;
+    border-color:  #E8B020 !important;
+}
+
