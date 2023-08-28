@@ -1,5 +1,6 @@
 <?php 
     require 'inputuser.php';
+    require 'blog.php';
 ?>
 
 <!DOCTYPE html>
@@ -662,6 +663,7 @@
         <!-- End -->
 
         <!-- Start -->
+        
         <section class="relative md:py-24 py-16" id="blog">
             <div class="container">
                 <div class="grid grid-cols-1 pb-8 text-center">
@@ -669,47 +671,48 @@
 
                     <p class="text-slate-400 max-w-xl mx-auto text-[15px]">Berita Terkini Tentang Partai Gerindra</p>
                 </div><!--end grid-->
-
+                
                 <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px] mt-8">
+                <?php while ($row = mysqli_fetch_assoc($result)) : ?>
                     <div class="blog relative rounded-lg shadow shadow-slate-200 dark:shadow-gray-800 overflow-hidden">
-                        <img src="assets/images/blog/c1.png" alt="">
+                        <img src="<?php echo $row["foto"]; ?>" alt="">
 
                         <div class="content p-6">
-                            <a href="https://realitaindo.co.id/kabupaten-tangerang/h-caesar-rismanto-resmi-jadi-caleg-partai-gerindra-kabupaten-tangerang-dapil-5/" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5">H.Caesar Rismanto Resmi Jadi Caleg Partai Gerindra Kabupaten Tangerang Dapil 5</a>
-                            <p class="text-slate-400 mt-3 text-[15px]">Meski hujan mengguyur deras di Luspem Tigaraksa, dengan pantang menyerah ratusan massa simpatisan Partai Gerindra antar ketua DPC Kabupaten Tangerang H. Astayudin SE daptarkan 55 bacalegnya ke KPUD Kabupaten Tangerang pada Sabtu, ( 13/5),</p>
+                            <a href="<?php echo $row["slug"]?>" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5"><?php echo $row["judul"]?></a>
+                            <p class="text-slate-400 mt-3 text-[15px]"><?php echo $row["konten"]?></p>
                             
                             <div class="mt-5">
-                                <a href="https://realitaindo.co.id/kabupaten-tangerang/h-caesar-rismanto-resmi-jadi-caleg-partai-gerindra-kabupaten-tangerang-dapil-5/" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">Baca Selengkapnya <i class="uil uil-arrow-right"></i></a>
+                                <a href="<?php echo $row["slug"]?>">Baca Selengkapnya <i class="uil uil-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
-
-                    <div class="blog relative rounded-lg shadow shadow-slate-200 dark:shadow-gray-800 overflow-hidden">
-                        <img src="assets/images/blog/p1.png" alt="">
+                    <?php endwhile; ?>
+                    <!--<div class="blog relative rounded-lg shadow shadow-slate-200 dark:shadow-gray-800 overflow-hidden">
+                        <img src="" alt="">
 
                         <div class="content p-6">
-                            <a href="https://20.detik.com/detikupdate/20230824-230824084/gerindra-nama-cawapres-tak-akan-keluar-tanpa-persetujuan-cak-imin" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5">Gerindra: Nama Cawapres Tak Akan Keluar Tanpa Persetujuan Cak Imin</a>
+                            <a href="" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5">Gerindra: Nama Cawapres Tak Akan Keluar Tanpa Persetujuan Cak Imin</a>
                             <p class="text-slate-400 mt-3 text-[15px]">Wakil Ketua Umum Gerindra, Habiburokhman menyebut piagam kerja sama politik Koalisi Kebangkitan Indonesia Raya (KKIR) secara prinsip tetap sama seusai Golkar dan PAN bergabung dengan koalisi. Ia mengatakan tidak akan keluar nama cawapres Prabowo tanpa persetujuan Ketua Umum PKB Muhaimin Iskandar (Cak Imin).</p>
                             
                             <div class="mt-5">
-                                <a href="https://20.detik.com/detikupdate/20230824-230824084/gerindra-nama-cawapres-tak-akan-keluar-tanpa-persetujuan-cak-imin" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">Baca Selengkapnya <i class="uil uil-arrow-right"></i></a>
+                                <a href="" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">Baca Selengkapnya <i class="uil uil-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="blog relative rounded-lg shadow shadow-slate-200 dark:shadow-gray-800 overflow-hidden">
-                        <img src="assets/images/blog/p2.png" alt="">
+                        <img src="" alt="">
 
                         <div class="content p-6">
-                            <a href="https://news.detik.com/foto-news/d-6878134/momen-prabowo-resmikan-rumah-pemenangan-relawan-di-menteng/5" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5">Momen Prabowo Resmikan Rumah Pemenangan Relawan di Mente</a>
+                            <a href="" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5">Momen Prabowo Resmikan Rumah Pemenangan Relawan di Mente</a>
                             <p class="text-slate-400 mt-3 text-[15px]">Relawan yang hadir di lokasi kompak memakai atribut bertuliskan Prabowo. Di antaranya, Prabowo Mania 08, Genastara, Gerakan Prabowo 08, Bintang Garuda dan organ relawan lainnya.</p>
                             
                             <div class="mt-5">
-                                <a href="https://news.detik.com/foto-news/d-6878134/momen-prabowo-resmikan-rumah-pemenangan-relawan-di-menteng/5" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">Baca Selengkapnya <i class="uil uil-arrow-right"></i></a>
+                                <a href="" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">Baca Selengkapnya <i class="uil uil-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div>
-                </div><!--end grid-->
+                    </div>-->
+                </div><!--end grid -->
             </div><!--end container-->
         </section><!--end section-->
         <!-- End -->
