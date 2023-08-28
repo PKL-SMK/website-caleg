@@ -1,5 +1,6 @@
 <?php 
     require 'inputuser.php';
+    require 'blog.php';
 ?>
 
 <!DOCTYPE html>
@@ -662,6 +663,7 @@
         <!-- End -->
 
         <!-- Start -->
+        
         <section class="relative md:py-24 py-16" id="blog">
             <div class="container">
                 <div class="grid grid-cols-1 pb-8 text-center">
@@ -669,47 +671,51 @@
 
                     <p class="text-slate-400 max-w-xl mx-auto text-[15px]">Obviously I'm a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
                 </div><!--end grid-->
-
+                
                 <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px] mt-8">
+                <?php while ($row = mysqli_fetch_assoc($result)) : ?>
                     <div class="blog relative rounded-lg shadow shadow-slate-200 dark:shadow-gray-800 overflow-hidden">
-                        <img src="assets/images/blog/01_giglink.jpg" alt="">
+
+                        <img src="<?php echo $row["foto"]; ?>" alt="">
 
                         <div class="content p-6">
-                            <a href="#" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5">Giglink: Tailwind CSS NFT Marketplace Template</a>
-                            <p class="text-slate-400 mt-3 text-[15px]">The phrasal sequence of the is now so that many campaign and benefit</p>
+                            <a href="<?php echo $row["slug"]?>" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5"><?php echo $row["judul"]?></a>
+                            <p class="text-slate-400 mt-3 text-[15px]"><?php echo $row["konten"]?></p>
                             
                             <div class="mt-5">
-                                <a href="#" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">Read More <i class="uil uil-arrow-right"></i></a>
+                                <a href="<?php echo $row["slug"]?>">Baca Selengkapnya <i class="uil uil-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <?php endwhile; ?>
+                    <!--<div class="blog relative rounded-lg shadow shadow-slate-200 dark:shadow-gray-800 overflow-hidden">
+                        <img src="" alt="">
+
+                        <div class="content p-6">
+                            <a href="" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5">Gerindra: Nama Cawapres Tak Akan Keluar Tanpa Persetujuan Cak Imin</a>
+                            <p class="text-slate-400 mt-3 text-[15px]">Wakil Ketua Umum Gerindra, Habiburokhman menyebut piagam kerja sama politik Koalisi Kebangkitan Indonesia Raya (KKIR) secara prinsip tetap sama seusai Golkar dan PAN bergabung dengan koalisi. Ia mengatakan tidak akan keluar nama cawapres Prabowo tanpa persetujuan Ketua Umum PKB Muhaimin Iskandar (Cak Imin).</p>
+                            
+                            <div class="mt-5">
+                                <a href="" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">Baca Selengkapnya <i class="uil uil-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div class="blog relative rounded-lg shadow shadow-slate-200 dark:shadow-gray-800 overflow-hidden">
-                        <img src="assets/images/blog/01_techwind.jpg" alt="">
+
+                        
+                        <img src="" alt="">
 
                         <div class="content p-6">
-                            <a href="#" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5">Techwind: Tailwind CSS Multipurpose Template</a>
-                            <p class="text-slate-400 mt-3 text-[15px]">The phrasal sequence of the is now so that many campaign and benefit</p>
+                            <a href="" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5">Momen Prabowo Resmikan Rumah Pemenangan Relawan di Mente</a>
+                            <p class="text-slate-400 mt-3 text-[15px]">Relawan yang hadir di lokasi kompak memakai atribut bertuliskan Prabowo. Di antaranya, Prabowo Mania 08, Genastara, Gerakan Prabowo 08, Bintang Garuda dan organ relawan lainnya.</p>
                             
                             <div class="mt-5">
-                                <a href="#" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">Read More <i class="uil uil-arrow-right"></i></a>
+                                <a href="" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">Baca Selengkapnya <i class="uil uil-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="blog relative rounded-lg shadow shadow-slate-200 dark:shadow-gray-800 overflow-hidden">
-                        <img src="assets/images/blog/01_upwind.jpg" alt="">
-
-                        <div class="content p-6">
-                            <a href="#" class="text-[17px] hover:text-amber-500 dark:text-white dark:hover:text-amber-500 transition duration-500 ease-in-out font-medium h5">Upwind: Tailwind CSS Landing Page Template</a>
-                            <p class="text-slate-400 mt-3 text-[15px]">The phrasal sequence of the is now so that many campaign and benefit</p>
-                            
-                            <div class="mt-5">
-                                <a href="#" class="hover:text-amber-500 dark:hover:text-amber-500 after:bg-amber-500 dark:text-white transition duration-500">Read More <i class="uil uil-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--end grid-->
+                    </div>-->
+                </div><!--end grid -->
             </div><!--end container-->
         </section><!--end section-->
         <!-- End -->
